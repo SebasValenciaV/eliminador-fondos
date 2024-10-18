@@ -1,3 +1,4 @@
 flet
 rembg
 Pillow
+pystray
