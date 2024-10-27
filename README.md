@@ -43,7 +43,7 @@ Uso
         Haz clic en "Buscar" para abrir los resultados en tu navegador web.
 
 Estructura del Proyecto
-
+```
 /Eliminar-fondos
 │
 ├── main.py                # Archivo principal de la aplicación
@@ -53,12 +53,13 @@ Estructura del Proyecto
 │   └── tray-icon.png      # Icono para la bandeja del sistema
 │   └── default-image.png  # Imagen de que no hay imágenes cargadas en el proyecto
 └── requirements.txt       # Archivo con las dependencias del proyecto
-
+```
 Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas contribuir, por favor crea un fork del repositorio y envía un pull request con tus cambios.
+
 Licencia
 
-Este proyecto está bajo la MIT License.
+Este proyecto está bajo GPL-3.0 license.
 
 
