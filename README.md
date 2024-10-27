@@ -33,6 +33,8 @@ pip install flet rembg Pillow pystray
 
 Uso
 
+![fondo-eliminado](https://github.com/user-attachments/assets/26f6e6a3-a296-45ca-b7bd-59298b0c795b)
+
     Eliminar Fondos:
         Abre la aplicación.
         Selecciona una imagen o una carpeta con imágenes.
