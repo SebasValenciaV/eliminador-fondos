@@ -1,5 +1,7 @@
+# menu.py
+
 import flet as ft
-import os
+from buscador import crear_buscador  # Importar la función para abrir el buscador
 
 class Menu:
     def __init__(self, page):
@@ -12,6 +14,7 @@ class Menu:
         menu = ft.PopupMenuButton(
             items=[
                 ft.PopupMenuItem(text="Cómo funciona", on_click=self.open_help_window),
+                ft.PopupMenuItem(text="Buscador de Imágenes", on_click=self.open_image_search),  # Nueva opción de menú
                 ft.PopupMenuItem(text="Cerrar aplicación", on_click=self.confirm_exit),
             ]
         )
@@ -24,6 +27,10 @@ class Menu:
             actions=[menu]
         )
 
+    def open_image_search(self, e):
+        # Llamar a la función para abrir la ventana de búsqueda
+        crear_buscador(self.page)
+        
     def confirm_exit(self, e=None):
         # Diálogo para confirmar la salida de la aplicación
         close_dialog = ft.AlertDialog(
@@ -53,6 +60,8 @@ class Menu:
                             weight=ft.FontWeight.BOLD,
                             color=ft.colors.RED
                         ),
+                        ft.Text("0. Selecciona la opción buscar imágenes gratuítas en el menú, y descargalas a tu equipo.",
+                                color=ft.colors.WHITE),
                         ft.Text("1. Presiona 'Procesar carpeta de imágenes' o 'Cargar imagen con fondo'.",
                                 color=ft.colors.WHITE),
                         ft.Text("2. Selecciona la carpeta donde se guardarán las imágenes sin fondo.",
