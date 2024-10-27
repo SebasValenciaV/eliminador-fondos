@@ -1,5 +1,7 @@
 ## Aplicación para eliminar el fondo de una imagen
 
+![eliminar-fondos](https://github.com/user-attachments/assets/7683c257-738d-4a14-b675-37105b185cde)
+
 - Aplicación creada con Python y Flet para seleccionar una imagen y eliminar el fondo.Este proyecto permite eliminar el fondo de imágenes y buscar imágenes gratuitas a través de diferentes motores de búsqueda. Utiliza la biblioteca [Flet](https://flet.dev/) para la interfaz gráfica y [rembg](https://github.com/danielgatis/rembg) para la eliminación de fondos.
 
 ## Características
