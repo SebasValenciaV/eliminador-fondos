@@ -4,7 +4,16 @@ import webbrowser
 SEARCH_ENGINES = {
     "Unsplash": "https://unsplash.com/s/photos/",
     "Pexels": "https://www.pexels.com/search/",
-    "Pixabay": "https://pixabay.com/images/search/"
+    "Pixabay": "https://pixabay.com/images/search/",
+    "Freepik": "https://www.freepik.es/search?format=search&last_filter=query&query=",
+    "Morguefile": "https://morguefile.com/search?term=",
+    "iStock": "https://www.istockphoto.com/es/search/2/image?phrase=",
+    "Life of Pix": "https://www.lifeofpix.com/search/",
+    "Gratisography": "https://gratisography.com/?s=",
+    "Shutterstock": "https://www.shutterstock.com/es/search/",
+    "Picjumbo": "https://picjumbo.com/search/",
+    "Kaboompics": "https://kaboompics.com/gallery?search=",
+    "Stocksnap": "https://stocksnap.io/search/"
 }
 
 def crear_buscador(page):
